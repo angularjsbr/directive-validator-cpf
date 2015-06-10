@@ -8,5 +8,5 @@ Diretiva para validação de cpf em AngularJS.
 
 As mensagens de erros disparadas são:
 
-* cpfIncomplet
-* cpfInvalid
+* cpfIncomplet -> Quando o cpf tem números de caracteres diferente de 11.
+* cpfInvalid -> Quando o cpf inserido for inválido.
