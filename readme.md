@@ -3,6 +3,12 @@ CPF Validator Directive [![Build Status](https://travis-ci.org/angularjsbr/direc
 
 Diretiva para validação de cpf em AngularJS.
 
+Para instalar :
+
+```
+  bower install angularjs-br-directive-validator-cpf
+```
+
 * Coloque a diretiva como dependência do seu projeto
 
 ```javascript

@@ -5,10 +5,10 @@
         "Igor de Paula <principe.borodin@gmail.com>"
     ],
     "dependencies": {
-        "angular": "~1.4.0"
+        "angular": "~1.4.0",
+        "angular-messages": "~1.4.0"
     },
-    "devDependencies": {
-        "angular-messages": "~1.4.0",
+    "devDependencies": {        
         "angular-mocks": "~1.4.0"
     },
     "description": "Diretiva para validar CPF em AngularJS",
