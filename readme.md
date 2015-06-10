@@ -5,27 +5,27 @@ Diretiva para validação de cpf em AngularJS.
 
 * Coloque a diretiva como dependência do seu projeto
 
-´´´javascript
+```javascript
   app.module('app',[...,'angularjs-br-directive-validator-cpf'])...
-´´´
+```
 
-´´´html
+```html
   <input type='text' cpf-validator ....>
-´´´
+```
 
 * Um dos requerimentos da diretiva é o angular-messages para lançar na view as mensagens de erro.
 
-´´´javascript
+```javascript
   app.module('app',[...,'ngMessages','angularjs-br-directive-validator-cpf'])...
-´´´
+```
 
-´´´html
+```html
   <input type='text' cpf-validator ....>
   <ul>
   <li ng-message="cpfInvalid">mnsagem para cpf invalid error</li>
   <li ng-message="cpfIncomplet">mnsagem para cpf incomplet error</li>
   </ul>
-´´´
+```
 
 As mensagens de erros disparadas são:
 
