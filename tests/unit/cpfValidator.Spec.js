@@ -2,7 +2,7 @@
 
 describe('CPF Validator Directive Test', function () {
 
-    beforeEach(module('app'));
+    beforeEach(module('angularjs-br-directive-validator-cpf'));
 
     var $compile,
             $rootScope,

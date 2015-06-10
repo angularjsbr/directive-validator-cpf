@@ -10,9 +10,9 @@ module.exports = function (config) {
         frameworks: ['mocha','chai'],
         // list of files / patterns to load in the browser
         files: [
-            'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js',
-            'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-messages.min.js',
-            'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-mocks.js',
+            'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.min.js',
+            'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-messages.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-mocks.js',
             'js/**/*.js',
             'tests/unit/**/*.js'
         ],
